@@ -1,0 +1,25 @@
+/* Navbar */
+
+.navbar {
+  background-color: #FEF0ED;
+  border-bottom: 2px solid #000000;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.navbar a {
+  color: #000000;
+}
+
+a:hover {
+  color: #FF847A;
+}
+
+.navbar-toggler {
+  background-color: #FF847A;
+  border: 2px solid #000000;
+  border-radius: 0;
+}
+
+.navbar-toggler-icon {
+  color: #000000;
+}
