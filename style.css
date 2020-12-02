@@ -1,9 +1,24 @@
+body {
+  background-color: #000000;
+}
+
+
 /* Navbar */
 
 .navbar {
-  background-color: #FEF0ED;
-  border-bottom: 2px solid #000000;
-  font-family: 'Press Start 2P', cursive;
+  background-color: #B6D0F4;
+  border-bottom: 2px solid #1A78F9;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 28px;
+  font-weight: 500;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-brand {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .navbar a {
@@ -22,4 +37,70 @@ a:hover {
 
 .navbar-toggler-icon {
   color: #000000;
+}
+
+/* Content */
+
+.music-websites {
+  border: 2px solid #FF847A;
+}
+
+.music-websites p {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  background-color: #000000;
+  margin-bottom: 0;
+  border: none;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  font-style: italic;
+  background-color: #FEF0ED;
+  border: 2px solid #FF847A;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-family: 'Roboto Mono', monospace;
+  border: 2px solid #33F9BC;
+  font-weight: 500;
+  background-color: #C5F6E7;
+}
+
+img {
+  filter: grayscale(100%);
+}
+
+@media (max-width: 1160px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1040px) {
+  p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 901px) {
+  .sub-article {
+    display: none;
+  }
+}
+
+/* Footer */
+
+.socials a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.socials a:hover {
+  color: #FF847A;
 }
